@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/project_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:text="Projects"/>
+
+    <TextView
+        android:id="@+id/project_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/project_header"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="Click on a Project for more information"/>
+
+
+    <Button
+        android:id="@+id/triton_tag_button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/project_subtitle"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="40dp"
+        android:text="Triton Tag"/>
+
+    <Button
+        android:id="@+id/pidgey_calc"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/triton_tag_button"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="40dp"
+        android:text="PidgeyCalc"/>
+
+</RelativeLayout>
