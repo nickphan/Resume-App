@@ -3,14 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
-    >
+    android:background="@drawable/generic1">
 
     <TextView
         android:id="@+id/title_1_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="85dp"
-        android:layout_marginRight="85dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:textSize="40dp"
         android:text="Nick Phan's"/>
@@ -19,8 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title_1_text_view"
-        android:layout_marginLeft="115dp"
-        android:layout_marginRight="115dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:textSize="40dp"
         android:text="Resume"/>
@@ -30,8 +28,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/title_2_text_view"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Projects"
         android:onClick="projectButtonClick"/>
@@ -41,8 +38,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/project_button"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Work Experience"
         android:onClick="workButtonClick"/>
@@ -52,8 +48,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/work_experience_button"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Education"
         android:onClick="educationButtonClick"/>
@@ -63,8 +58,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/education_button"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="More About Me"
         android:onClick="aboutMeButtonClick"/>
@@ -74,8 +68,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/about_me_button"
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Contact Me"
         android:onClick="contactMeButtonClick"/>

@@ -3,19 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@drawable/generic1">
 
     <TextView
         android:id="@+id/about_me_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginLeft="110dp"
-        android:layout_marginRight="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:textSize="35sp"
-        android:text="About Me"
-        android:textColor=""/>
+        android:text="About Me"/>
 
     <TextView
         android:id="@+id/activities_header"
