@@ -35,7 +35,8 @@
         android:layout_marginLeft="110dp"
         android:layout_marginRight="110dp"
         android:layout_marginTop="40dp"
-        android:text="Triton Tag"/>
+        android:text="Triton Tag"
+        android:onClick="tritonTagClick"/>
 
     <Button
         android:id="@+id/pidgey_calc"
@@ -45,6 +46,7 @@
         android:layout_marginLeft="110dp"
         android:layout_marginRight="110dp"
         android:layout_marginTop="40dp"
-        android:text="PidgeyCalc"/>
+        android:text="PidgeyCalc"
+        android:onClick="pidgeyCalcClick"/>
 
 </RelativeLayout>

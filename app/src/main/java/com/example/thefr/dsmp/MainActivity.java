@@ -1,6 +1,7 @@
 package com.example.thefr.dsmp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -43,22 +44,32 @@ public class MainActivity extends AppCompatActivity {
 
     public void projectButtonClick(View view){
         Intent intent = new Intent(this, ProjectActivity.class);
-        startService(intent);
+        startActivity(intent);
     }
 
     public void workButtonClick(View view){
         Intent intent = new Intent(this, WorkActivity.class);
-        startService(intent);
+        startActivity(intent);
     }
     public void educationButtonClick(View view){
         Intent intent = new Intent(this, EducationActivity.class);
-        startService(intent);
+        startActivity(intent);
     }
     public void aboutMeButtonClick(View view){
         Intent intent = new Intent(this, AboutMeActivity.class);
-        startService(intent);
+        startActivity(intent);
     }
     public void contactMeButtonClick(View view){
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        String myEmail = "thefryingphan@gmail.com";
+
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, myEmail);
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Saw Your App");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "Hello Mr. Phan\n I would love to talk to you about a job opportunity.\n");
+        startActivity(Intent.createChooser(emailIntent, "Send mail"));
 
     }
 }

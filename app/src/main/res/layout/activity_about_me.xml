@@ -2,7 +2,8 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <TextView
         android:id="@+id/about_me_header"
@@ -13,7 +14,8 @@
         android:layout_marginRight="110dp"
         android:layout_marginTop="40dp"
         android:textSize="35sp"
-        android:text="About Me"/>
+        android:text="About Me"
+        android:textColor=""/>
 
     <TextView
         android:id="@+id/activities_header"
